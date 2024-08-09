@@ -44,7 +44,7 @@ export default function Home() {
                   </div>
                   <div>
                     <label className="block text-sm font-medium mb-2" htmlFor="message">Dites-nous tout</label>
-                    <textarea id="message" className="form-textarea text-sm w-full" rows={4} placeholder="Share your requirements" required></textarea>
+                    <textarea id="message" className="form-textarea text-sm w-full" rows={4} placeholder="Couchez vos pensées les plus joyeuses" required></textarea>
                   </div>
                 </div>
                 <div className="mt-5">
