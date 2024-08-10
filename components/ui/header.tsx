@@ -1,19 +1,19 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '@/public/images/logo.png'
+import Logo from '@/public/images/logo.svg'
 
 export default function Header() {
   return (
     <header className="absolute top-2 md:top-6 w-full z-30">
       <div className="px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="flex items-center justify-between h-14 border border-transparent [background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] rounded-lg px-3">
+        <div className="flex items-center justify-between h-14  px-3">
 
             {/* Site branding */}
-            <div className="shrink-0 mr-4">
+            <div className="shrink-0 mr-4 h-14 flex items-center">
               {/* Logo */}
-              <Link className="flex items-center justify-center bg-white w-8 h-8 rounded shadow-sm shadow-zinc-950/20" href="/">
-                <Image src={Logo} width={24} height={24} alt="Logo" />
+              <Link className="flex items-center justify-center rounded" href="/">
+                <Image src={Logo} width={64} height={64} alt="Logo" />
               </Link>
             </div>
 
@@ -23,7 +23,7 @@ export default function Header() {
               {/* Desktop sign in links */}
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li className="ml-1">
-                  <Link className="btn-sm text-zinc-100 bg-zinc-900 hover:bg-zinc-800 w-full shadow" href="/contact">Contactez-nous</Link>
+                  <Link className="btn text-zinc-600 bg-zinc-100 hover:text-zinc-900 w-full shadow" href="/contact">Contactez-nous</Link>
                 </li>
               </ul>
 
