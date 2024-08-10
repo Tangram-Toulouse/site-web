@@ -3,9 +3,6 @@ export const metadata = {
   description: 'Page description',
 }
 
-import Blocks from './blocks'
-import Community from './community'
-
 export default function Home() {
   return (
     <>

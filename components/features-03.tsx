@@ -36,7 +36,7 @@ export default function Features03() {
             <div className="lg:max-w-none lg:min-w-[524px]">
               <div className="mb-8">
                 <div className="inline-flex text-sm font-medium text-zinc-400 px-4 py-0.5 border border-transparent [background:linear-gradient(theme(colors.zinc.800),theme(colors.zinc.800))_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box] rounded-full mb-4">Plantes non contractuelles</div>
-                <div className="inline-flex text-sm font-medium text-zinc-400 px-4 py-0.5 border border-transparent [background:linear-gradient(theme(colors.zinc.800),theme(colors.zinc.800))_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box] rounded-full mb-4">
+                <div className="inline-flex text-sm font-medium px-4 py-0.5 [background:linear-gradient(theme(colors.zinc.800),theme(colors.zinc.800))_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box] rounded-full mb-4">
                   <Link className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow" href="/contact">Contactez-nous</Link>
                 </div>
                 <h3 className="font-inter-tight text-3xl font-bold text-zinc-200 mb-4">Des bureaux pour n'importe quel métier</h3>

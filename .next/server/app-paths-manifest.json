@@ -1,6 +1,1 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/hello/route": "app/api/hello/route.js",
-  "/(default)/page": "app/(default)/page.js",
-  "/(default)/contact/page": "app/(default)/contact/page.js"
-}
+{}
