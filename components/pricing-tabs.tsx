@@ -65,7 +65,7 @@ export default function PricingTabs() {
                     <div className="font-inter-tight inline-flex items-baseline mb-2">
                       <span className="text-zinc-900 font-bold text-2xl">A partir de € 120/mois</span>
                     </div>
-                    <div className="text-zinc-500">Un temps complet c'est encore trop cher ? On peut aussi faire du mi-temps</div>
+                    <div className="text-zinc-500">Un temps complet c'est encore trop cher ? On peut aussi faire du mi-temps. Contactez-nous pour connaitre les disponibilités.</div>
                   </div>
                   <div className="grow">
                     <div className="text-sm text-zinc-900 font-medium mb-4">Inclut : </div>
@@ -74,7 +74,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="01" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="01" content="On vous donne votre jeu de clef rien qu'à vous">
                           Accès 24/7 avec les clefs
                         </Tooltip>
                       </li>
@@ -82,7 +82,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="02" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="02" content="Vous participez aux décisions collégiales impliquant Tangram">
                           Membre de l'association
                         </Tooltip>
                       </li>
@@ -90,7 +90,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="03" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="03" content="Cuisine, salle de réunion et aussi bien sûr l'entrée et le couloir mais bon...">
                           Accès à toutes les parties communes
                         </Tooltip>
                       </li>
@@ -98,7 +98,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="04" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="04" content="Et les pauses cafés légendaires.">
                           Les sourires de tes coworkers
                         </Tooltip>
                       </li>
@@ -106,7 +106,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="05" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="05" content="Une autre personne utilisera votre bureau. Pas de panique vous pourrez prendre le temps de la rencontrer et de la connaitre avant de décider !">
                           Un grands bureaux à partager avec un autre mi-temps
                         </Tooltip>
                       </li>
@@ -114,8 +114,8 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="06" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Inclu 67€ de charges communes (box, et fonctionnement général)
+                        <Tooltip id="06" content="box internet, chaffage, fonctionnement général">
+                          Inclu 38.5€ de charges communes
                         </Tooltip>
                       </li>
                     </ul>
@@ -145,7 +145,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="07" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="07" content="On vous donne votre jeu de clef rien qu'à vous" dark>
                           Accès 24/7 avec les clefs
                         </Tooltip>
                       </li>
@@ -153,7 +153,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="08" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="08" content="Vous participez aux décisions collégiales impliquant Tangram" dark>
                           Membre de l'association
                         </Tooltip>
                       </li>
@@ -161,7 +161,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="09" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="09" content="Cuisine, salle de réunion et bien sûr l'entrée et le couloir mais bon..." dark>
                           Accès à toutes les parties communes
                         </Tooltip>
                       </li>
@@ -169,7 +169,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="10" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="10" content="Et les pauses cafés légendaires." dark>
                           Les sourires de tes coworkers
                         </Tooltip>
                       </li>
@@ -177,7 +177,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="11" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="11" content="Posez vos affaires, vos plantes, vos meubles, votre doudou... tout ce que vous voulez. C'est chez vous." dark>
                           Un grands bureaux
                         </Tooltip>
                       </li>
@@ -185,7 +185,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="12" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="12" content="box internet, chaffage, fonctionnement général" dark>
                           Inclu 67€ de charges communes (box, et fonctionnement général)
                         </Tooltip>
                       </li>
@@ -216,7 +216,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="13" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="13" content="On vous donne votre jeu de clef rien qu'à vous">
                           Accès 24/7 avec les clefs
                         </Tooltip>
                       </li>
@@ -224,7 +224,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="14" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="14" content="Vous participez aux décisions collégiales impliquant Tangram">
                           Membre de l'association
                         </Tooltip>
                       </li>
@@ -232,7 +232,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="15" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="15" content="Cuisine, salle de réunion et bien sûr l'entrée et le couloir mais bon...">
                           Accès à toutes les parties communes
                         </Tooltip>
                       </li>
@@ -240,7 +240,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="16" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="16" content="Et les pauses cafés légendaires.">
                           Les sourires de tes coworkers
                         </Tooltip>
                       </li>
@@ -248,7 +248,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="17" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="17" content="Posez vos affaires, vos plantes, vos meubles, votre doudou... tout ce que vous voulez. C'est chez vous.">
                           Un grands bureaux
                         </Tooltip>
                       </li>
@@ -256,7 +256,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="18" content="Lorem Ipsum is simply dummy text of the printing.">
+                        <Tooltip id="18" content="box internet, chaffage, fonctionnement général">
                           Inclu 67€ de charges communes (box, et fonctionnement général)
                         </Tooltip>
                       </li>
@@ -287,7 +287,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="07" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="19" content="On vous donne votre jeu de clef rien qu'à vous">
                           Accès 24/7 avec les clefs
                         </Tooltip>
                       </li>
@@ -295,7 +295,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="08" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="20" content="Vous participez aux décisions collégiales impliquant Tangram">
                           Membre de l'association
                         </Tooltip>
                       </li>
@@ -303,7 +303,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="09" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="21" content="Cuisine, salle de réunion et bien sûr l'entrée et le couloir mais bon..." dark>
                           Accès à toutes les parties communes
                         </Tooltip>
                       </li>
@@ -311,7 +311,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="10" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="22" content="Et les pauses cafés légendaires." dark>
                           Les sourires de tes coworkers
                         </Tooltip>
                       </li>
@@ -319,7 +319,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="11" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="23" content="Posez vos affaires, vos plantes, vos meubles, votre doudou... tout ce que vous voulez. C'est chez vous." dark>
                           Un grands bureaux
                         </Tooltip>
                       </li>
@@ -327,7 +327,7 @@ export default function PricingTabs() {
                         <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                         </svg>
-                        <Tooltip id="12" content="Lorem Ipsum is simply dummy text of the printing." dark>
+                        <Tooltip id="24" content="box internet, chaffage, fonctionnement général" dark>
                           Inclu 67€ de charges communes (box, et fonctionnement général)
                         </Tooltip>
                       </li>
