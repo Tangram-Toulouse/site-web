@@ -35,7 +35,7 @@ export default function PricingTabs() {
     },
     {
       title: "Est-ce que vous avez vraiment un chien ?",
-      text: "Non on a pas de chien. La photo en haut de cette page faisait partie du template, et j'ai pas trouver de truc chouette à mettre à la place.",
+      text: "Non on a pas de chien. La photo en haut de cette page faisait partie du template, et j'ai pas trouvé de truc chouette à mettre à la place.",
       active: false,
     },
   ]
