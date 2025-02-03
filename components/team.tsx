@@ -1,17 +1,16 @@
 import Image from 'next/image'
 
 import TeamImage01 from '@/public/images/tangram/team-member-nico.jpg'
-import TeamImage012 from '@/public/images/team-member-01.jpg'
+import TeamImage012 from '@/public/images/tangram/team-member-marion.jpg'
 import TeamImage02 from '@/public/images/team-member-02.jpg'
 import TeamImage03 from '@/public/images/team-member-03.jpg'
 import TeamImage04 from '@/public/images/tangram/team-member-karim.jpg'
 import TeamImage042 from '@/public/images/team-member-04.jpg'
-import TeamImage05 from '@/public/images/team-member-05.jpg'
+import TeamImage05 from '@/public/images/tangram/team-member-sandrine.jpg'
 import TeamImage06 from '@/public/images/team-member-06.jpg'
 import TeamImage07 from '@/public/images/team-member-07.jpg'
-import TeamImage08 from '@/public/images/team-member-08.jpg'
+import TeamImage08 from '@/public/images/tangram/team-member-lisa.jpg'
 import TeamImage09 from '@/public/images/tangram/team-member-corentin.jpg'
-import TeamImage10 from '@/public/images/tangram/team-member-unknown.png'
 import Link from 'next/link'
 
 export default function Team() {
@@ -69,8 +68,8 @@ export default function Team() {
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage02} width={120} height={120} alt="Team member 01" />
-                <h4 className="text-xl font-medium mb-1">Agnès Vidal Saint-André</h4>
-                <div className="text-gray-500 mb-1">Designer graphique</div>
+                <h4 className="text-xl font-medium mb-1">Blanca Aguilar</h4>
+                <div className="text-gray-500 mb-1">Architecte</div>
               </div>
             </div>
 
@@ -115,12 +114,12 @@ export default function Team() {
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage05} width={120} height={120} alt="Team member 01" />
-                <h4 className="text-xl font-medium mb-1">Jérôme Leroy</h4>
-                <div className="text-gray-500 mb-1">Concepteur-rédacteur web & print</div>
+                <h4 className="text-xl font-medium mb-1">Sandrine Berger</h4>
+                <div className="text-gray-500 mb-1">AI Researcher → Product Owner</div>
                 <div className='flex flex-row space-x-2 '>
-                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://x.com/Motismo" target='_blank'>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20">
-                        <path d="m7.063 3 3.495 4.475L14.601 3h2.454l-5.359 5.931L18 17h-4.938l-3.866-4.893L4.771 17H2.316l5.735-6.342L2 3h5.063Zm-.74 1.347H4.866l8.875 11.232h1.36L6.323 4.347Z"></path>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/sandrine-berger/" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
                     </svg>
                   </a>
                 </div>
@@ -163,12 +162,12 @@ export default function Team() {
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage042} width={120} height={120} alt="Team member 01" />
-                <h4 className="text-xl font-medium mb-1">Laurent Jargot</h4>
-                <div className="text-gray-500 mb-1">Designer graphique web/print</div>
+                <h4 className="text-xl font-medium mb-1">Benoît Soulié</h4>
+                <div className="text-gray-500 mb-1">Architecte DE HMONP</div>
                 <div className='flex flex-row space-x-2 '>
-                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="http://laurentjargot.com/" target='_blank'>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/benoit-souli%C3%A9-48164688/" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
                     </svg>
                   </a>
                 </div>
@@ -204,10 +203,20 @@ export default function Team() {
             {/* 10th member */}
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <Image className="rounded-full mb-4" src={TeamImage10} width={120} height={120} alt="Team member 01" />
-                <h4 className="text-xl font-medium mb-1">Bientôt vous</h4>
-                <div className="text-gray-500 mb-1">votre métier</div>
+                <Image className="rounded-full mb-4" src={TeamImage08} width={120} height={120} alt="Team member 01" />
+                <h4 className="text-xl font-medium mb-1">Lisa Fontanel</h4>
+                <div className="text-gray-500 mb-1">Paysagiste Conceptrice DPLG</div>
                 <div className='flex flex-row space-x-2 '>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.behance.net/atelier-refuge" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                    </svg>
+                  </a>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/lisa-fontanel/" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>
@@ -215,10 +224,20 @@ export default function Team() {
             {/* 11th member */}
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <Image className="rounded-full mb-4" src={TeamImage10} width={120} height={120} alt="Team member 01" />
-                <h4 className="text-xl font-medium mb-1">Bientôt vous</h4>
-                <div className="text-gray-500 mb-1">votre métier</div>
+                <Image className="rounded-full mb-4" src={TeamImage012} width={120} height={120} alt="Team member 01" />
+                <h4 className="text-xl font-medium mb-1">Marion Hintzy</h4>
+                <div className="text-gray-500 mb-1">Paysagiste Conceptrice Illustratrice</div>
                 <div className='flex flex-row space-x-2 '>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.behance.net/atelier-refuge" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                    </svg>
+                  </a>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/marion-hintzy-74904b87" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>
