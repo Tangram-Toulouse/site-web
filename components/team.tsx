@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import TeamImage01 from '@/public/images/tangram/team-member-nico.jpg'
-import TeamImage012 from '@/public/images/team-member-01.jpg'
+import TeamImage012 from '@/public/images/tangram/team-member-marion.jpg'
 import TeamImage02 from '@/public/images/team-member-02.jpg'
 import TeamImage03 from '@/public/images/team-member-03.jpg'
 import TeamImage04 from '@/public/images/tangram/team-member-karim.jpg'
@@ -9,7 +9,7 @@ import TeamImage042 from '@/public/images/team-member-04.jpg'
 import TeamImage05 from '@/public/images/tangram/team-member-sandrine.jpg'
 import TeamImage06 from '@/public/images/team-member-06.jpg'
 import TeamImage07 from '@/public/images/team-member-07.jpg'
-import TeamImage08 from '@/public/images/team-member-08.jpg'
+import TeamImage08 from '@/public/images/tangram/team-member-lisa.jpg'
 import TeamImage09 from '@/public/images/tangram/team-member-corentin.jpg'
 import Link from 'next/link'
 
@@ -207,6 +207,11 @@ export default function Team() {
                 <h4 className="text-xl font-medium mb-1">Lisa Fontanel</h4>
                 <div className="text-gray-500 mb-1">Paysagiste Conceptrice DPLG</div>
                 <div className='flex flex-row space-x-2 '>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.behance.net/atelier-refuge" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                    </svg>
+                  </a>
                   <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/lisa-fontanel/" target='_blank'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
                       <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
@@ -221,8 +226,13 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage012} width={120} height={120} alt="Team member 01" />
                 <h4 className="text-xl font-medium mb-1">Marion Hintzy</h4>
-                <div className="text-gray-500 mb-1">Paysagiste conceptrice & Illustratrice</div>
+                <div className="text-gray-500 mb-1">Paysagiste Conceptrice Illustratrice</div>
                 <div className='flex flex-row space-x-2 '>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.behance.net/atelier-refuge" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                    </svg>
+                  </a>
                   <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/marion-hintzy-74904b87" target='_blank'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
                       <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
