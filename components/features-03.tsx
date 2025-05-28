@@ -45,7 +45,7 @@ export default function Features03() {
                   Posez vos affaires, ayez vos clefs et venez quand cela vous va.
                   Moins cher que les autres co-working, vous aurez enfin votre propre espace.
                   <br></br>
-                  Parmis nos <strong>5 bureaux</strong>, voici ceux disponibles :
+                  Nos <strong>5 bureaux</strong> sont actuellement complets. N'hésitez pas à revenir ici de temps en temps pour voir nos disponibilités.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -65,7 +65,7 @@ export default function Features03() {
                       Lumineux, sur cour, vous partagerez ce bureau avec deux autres personnes pour un total de 13 mètres carrés.
                     </div>
                     <div className="text-zinc-500">
-                      <strong>Seulement 2 places encore disponibles !</strong>
+                      <strong>Le bureau est actuellement complet</strong>
                     </div>
                   </div>
                 </button>
@@ -101,7 +101,7 @@ export default function Features03() {
                       Son appellation "le bureau du fond", ne présage pas qu'il possède une vue directe sur la tour du couvent des Jacobins ! Inspiration garantie.
                     </div>
                     <div className="text-zinc-500">
-                    <strong>1 seule place encore disponible !</strong>
+                    <strong>Le bureau est complet à l'heure actuelle</strong>
                     </div>
                   </div>
                 </button>
