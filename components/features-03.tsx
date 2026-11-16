@@ -23,7 +23,7 @@ export default function Features03() {
   }, [])
 
   return (
-    <section className="relative bg-zinc-800 after:absolute after:top-0 after:right-0 after:h-full after:w-96 after:pointer-events-none after:bg-gradient-to-l after:from-zinc-800 max-lg:after:hidden">
+    <section className="relative bg-zinc-800 after:absolute after:top-0 after:right-0 after:h-full after:w-96 after:pointer-events-none after:bg-linear-to-l after:from-zinc-800 max-lg:after:hidden">
       <div className="py-12 md:py-20">
 
         {/* Carousel */}
@@ -33,9 +33,9 @@ export default function Features03() {
             {/* Content */}
             <div className="lg:max-w-none lg:min-w-[524px]">
               <div className="mb-8">
-                <div className="inline-flex text-sm font-medium text-zinc-400 px-4 py-0.5 border border-transparent [background:linear-gradient(theme(colors.zinc.800),theme(colors.zinc.800))_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box] rounded-full mb-4">Plantes non contractuelles</div>
-                <div className="inline-flex text-sm font-medium px-4 py-0.5 [background:linear-gradient(theme(colors.zinc.800),theme(colors.zinc.800))_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box] rounded-full mb-4">
-                  <Link className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow" href="/contact">Contactez-nous</Link>
+                <div className="inline-flex text-sm font-medium text-zinc-400 px-4 py-0.5 border border-transparent [background:linear-gradient(var(--color-zinc-800),var(--color-zinc-800))_padding-box,linear-gradient(120deg,var(--color-zinc-700),--theme(--color-zinc-700/0),var(--color-zinc-700))_border-box] rounded-full mb-4">Plantes non contractuelles</div>
+                <div className="inline-flex text-sm font-medium px-4 py-0.5 [background:linear-gradient(var(--color-zinc-800),var(--color-zinc-800))_padding-box,linear-gradient(120deg,var(--color-zinc-700),--theme(--color-zinc-700/0),var(--color-zinc-700))_border-box] rounded-full mb-4">
+                  <Link className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow-sm" href="/contact">Contactez-nous</Link>
                 </div>
                 <h3 className="font-inter-tight text-3xl font-bold text-zinc-200 mb-4">Des bureaux pour n'importe quel métier</h3>
                 <p className="text-lg text-zinc-500">
@@ -49,7 +49,7 @@ export default function Features03() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0 space-y-2">
                 <button
-                  className={`text-left flex items-center px-6 py-4 rounded border border-transparent ${tab !== 1 ? '' : '[background:linear-gradient(#2E2E32,#2E2E32)_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box]'}`}
+                  className={`text-left flex items-center px-6 py-4 rounded-sm border border-transparent ${tab !== 1 ? '' : '[background:linear-gradient(#2E2E32,#2E2E32)_padding-box,linear-gradient(120deg,var(--color-zinc-700),--theme(--color-zinc-700/0),var(--color-zinc-700))_border-box]'}`}
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <svg className="shrink-0 fill-zinc-400 mr-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
@@ -68,7 +68,7 @@ export default function Features03() {
                   </div>
                 </button>
                 <button
-                  className={`text-left flex items-center px-6 py-4 rounded border border-transparent ${tab !== 2 ? '' : '[background:linear-gradient(#2E2E32,#2E2E32)_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box]'}`}
+                  className={`text-left flex items-center px-6 py-4 rounded-sm border border-transparent ${tab !== 2 ? '' : '[background:linear-gradient(#2E2E32,#2E2E32)_padding-box,linear-gradient(120deg,var(--color-zinc-700),--theme(--color-zinc-700/0),var(--color-zinc-700))_border-box]'}`}
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <svg className="shrink-0 fill-zinc-400 mr-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
@@ -85,7 +85,7 @@ export default function Features03() {
                   </div>
                 </button>
                 <button
-                  className={`text-left flex items-center px-6 py-4 rounded border border-transparent ${tab !== 3 ? '' : '[background:linear-gradient(#2E2E32,#2E2E32)_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700/0),theme(colors.zinc.700))_border-box]'}`}
+                  className={`text-left flex items-center px-6 py-4 rounded-sm border border-transparent ${tab !== 3 ? '' : '[background:linear-gradient(#2E2E32,#2E2E32)_padding-box,linear-gradient(120deg,var(--color-zinc-700),--theme(--color-zinc-700/0),var(--color-zinc-700))_border-box]'}`}
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <svg className="shrink-0 fill-zinc-400 mr-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24">

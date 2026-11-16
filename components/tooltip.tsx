@@ -34,7 +34,7 @@ export default function Tooltip({
         <Transition
           as="div"
           show={open}
-          className="w-[12.5rem] text-xs bg-white text-zinc-500 border border-zinc-200 px-3 py-2 rounded shadow-lg overflow-hidden mt-1"
+          className="w-50 text-xs bg-white text-zinc-500 border border-zinc-200 px-3 py-2 rounded-sm shadow-lg overflow-hidden mt-1"
           enter="transition ease-out duration-200 transform"
           enterFrom="opacity-0 translate-y-1"
           enterTo="opacity-100 translate-y-0"

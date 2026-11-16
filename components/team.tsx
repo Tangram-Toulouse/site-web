@@ -247,7 +247,7 @@ export default function Team() {
 
         </div>
         <div className='flex items-center justify-center'>
-          <Link className="text-center mb-6 btn-sm text-zinc-100 bg-zinc-900 hover:bg-zinc-800 w-40 shadow" href="/contact">Contactez-nous</Link>
+          <Link className="text-center mb-6 btn-sm text-zinc-100 bg-zinc-900 hover:bg-zinc-800 w-40 shadow-sm" href="/contact">Contactez-nous</Link>
         </div>
       </div>
     </section>
