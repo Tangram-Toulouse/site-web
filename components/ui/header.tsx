@@ -12,7 +12,7 @@ export default function Header() {
             {/* Site branding */}
             <div className="shrink-0 mr-4 h-14 flex items-center">
               {/* Logo */}
-              <Link className="flex items-center justify-center rounded" href="/">
+              <Link className="flex items-center justify-center rounded-sm" href="/">
                 <Image src={Logo} width={64} height={64} alt="Logo" />
               </Link>
             </div>
@@ -23,7 +23,7 @@ export default function Header() {
               {/* Desktop sign in links */}
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li className="ml-1">
-                  <Link className="btn text-zinc-600 bg-zinc-100 hover:text-zinc-900 w-full shadow" href="/contact">Contactez-nous</Link>
+                  <Link className="btn text-zinc-600 bg-zinc-100 hover:text-zinc-900 w-full shadow-sm" href="/contact">Contactez-nous</Link>
                 </li>
               </ul>
 

@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import FeatureIllustration from '@/public/images/feature-illustration.png'
 import Cour from '@/public/images/tangram/cour-2.jpg'
 import Emplacement from '@/public/images/tangram/gambetta.png'
 import Locaux from '@/public/images/tangram/locaux.png'
@@ -42,7 +41,7 @@ export default function Features01() {
             {/* Tabs buttons */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 justify-center">
               <button
-                className={`text-left px-4 py-5 border border-transparent rounded ${tab !== 1 ? 'bg-zinc-100 opacity-60 hover:opacity-100 transition' : '[background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] shadow-sm rotate-1'}`}
+                className={`text-left px-4 py-5 border border-transparent rounded-sm ${tab !== 1 ? 'bg-zinc-100 opacity-60 hover:opacity-100 transition' : '[background:linear-gradient(var(--color-white),var(--color-white))_padding-box,linear-gradient(120deg,var(--color-zinc-300),var(--color-zinc-100),var(--color-zinc-300))_border-box] shadow-xs rotate-1'}`}
                 onClick={(e) => { e.preventDefault(); setTab(1); }}
               >
                 <div className="flex items-center justify-between mb-1">
@@ -54,7 +53,7 @@ export default function Features01() {
                 <div className="text-sm text-zinc-500">Situés en plein cœur historique de Toulouse <br></br> A 100 mètre de la place du Capitole</div>
               </button>
               <button
-                className={`text-left px-4 py-5 border border-transparent rounded ${tab !== 2 ? 'bg-zinc-100 opacity-60 hover:opacity-100 transition' : '[background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] shadow-sm rotate-1'}`}
+                className={`text-left px-4 py-5 border border-transparent rounded-sm ${tab !== 2 ? 'bg-zinc-100 opacity-60 hover:opacity-100 transition' : '[background:linear-gradient(var(--color-white),var(--color-white))_padding-box,linear-gradient(120deg,var(--color-zinc-300),var(--color-zinc-100),var(--color-zinc-300))_border-box] shadow-xs rotate-1'}`}
                 onClick={(e) => { e.preventDefault(); setTab(2); }}
               >
                 <div className="flex items-center justify-between mb-1">
@@ -66,7 +65,7 @@ export default function Features01() {
                 <div className="text-sm text-zinc-500">Bureaux spacieux à prix imbattables</div>
               </button>
               <button
-                className={`text-left px-4 py-5 border border-transparent rounded ${tab !== 3 ? 'bg-zinc-100 opacity-60 hover:opacity-100 transition' : '[background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] shadow-sm rotate-1'}`}
+                className={`text-left px-4 py-5 border border-transparent rounded-sm ${tab !== 3 ? 'bg-zinc-100 opacity-60 hover:opacity-100 transition' : '[background:linear-gradient(var(--color-white),var(--color-white))_padding-box,linear-gradient(120deg,var(--color-zinc-300),var(--color-zinc-100),var(--color-zinc-300))_border-box] shadow-xs rotate-1'}`}
                 onClick={(e) => { e.preventDefault(); setTab(3); }}
               >
                 <div className="flex items-center justify-between mb-1">
@@ -79,7 +78,7 @@ export default function Features01() {
               </button >
             </div>
             {/* Tabs items */}
-            <div className="relative lg:max-w-none [mask-image:linear-gradient(white_0%,white_calc(100%-40px),_transparent_calc(100%-1px))] -mx-6">
+            <div className="relative lg:max-w-none mask-[linear-gradient(white_0%,white_calc(100%-40px),transparent_calc(100%-1px))] -mx-6">
               <div className="relative flex flex-col pt-12 md:pt-20 mx-6" ref={tabs}>
                 {/* Item 1 */}
                 <Transition
@@ -96,7 +95,7 @@ export default function Features01() {
                   unmount={false}
                 >
                   <div className="inline-flex relative align-top">
-                    <Image className="rounded-t-lg border border-transparent [background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] box-content shadow-2xl" src={Emplacement} width={600} height={360} alt="Centre Historique" />
+                    <Image className="rounded-t-lg border border-transparent [background:linear-gradient(var(--color-white),var(--color-white))_padding-box,linear-gradient(120deg,var(--color-zinc-300),var(--color-zinc-100),var(--color-zinc-300))_border-box] box-content shadow-2xl" src={Emplacement} width={600} height={360} alt="Centre Historique" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -114,7 +113,7 @@ export default function Features01() {
                   unmount={false}
                 >
                   <div className="inline-flex relative align-top">
-                    <Image className="rounded-t-lg border border-transparent [background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] box-content shadow-2xl" src={Locaux} width={600} height={360} alt="Locaux Spacieux" />
+                    <Image className="rounded-t-lg border border-transparent [background:linear-gradient(var(--color-white),var(--color-white))_padding-box,linear-gradient(120deg,var(--color-zinc-300),var(--color-zinc-100),var(--color-zinc-300))_border-box] box-content shadow-2xl" src={Locaux} width={600} height={360} alt="Locaux Spacieux" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -132,7 +131,7 @@ export default function Features01() {
                   unmount={false}
                 >
                   <div className="inline-flex relative align-top">
-                    <Image className="rounded-t-lg border border-transparent [background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] box-content shadow-2xl" src={Cour} width={600} height={360} alt="Cour" />
+                    <Image className="rounded-t-lg border border-transparent [background:linear-gradient(var(--color-white),var(--color-white))_padding-box,linear-gradient(120deg,var(--color-zinc-300),var(--color-zinc-100),var(--color-zinc-300))_border-box] box-content shadow-2xl" src={Cour} width={600} height={360} alt="Cour" />
                   </div>
                 </Transition>
               </div>
