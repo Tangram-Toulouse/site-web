@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import FeatureIllustration from '@/public/images/feature-illustration.png'
 import Cour from '@/public/images/tangram/cour-2.jpg'
 import Emplacement from '@/public/images/tangram/gambetta.png'
 import Locaux from '@/public/images/tangram/locaux.png'

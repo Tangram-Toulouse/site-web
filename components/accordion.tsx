@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 type AccordionpProps = {
   children: React.ReactNode
@@ -16,11 +16,7 @@ export default function Accordion({
   active = false
 }: AccordionpProps) {
 
-  const [accordionOpen, setAccordionOpen] = useState<boolean>(false)
-
-  useEffect(() => {
-    setAccordionOpen(active)
-  }, [])
+  const [accordionOpen, setAccordionOpen] = useState<boolean>(active)
 
   return (
     <div className="bg-zinc-100 rounded">

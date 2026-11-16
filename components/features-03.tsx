@@ -3,11 +3,9 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import CarouselIllustration from '@/public/images/carousel-illustration-01.jpg'
 import Bureau1 from '@/public/images/tangram/bureau1-2.jpg'
 import Bureau2 from '@/public/images/tangram/bureau2-2.jpg'
 import Bureau5 from '@/public/images/tangram/bureau5-2.jpg'
-import FeatureIllustration from '@/public/images/features-illustration.png'
 import Link from 'next/link'
 
 export default function Features03() {
