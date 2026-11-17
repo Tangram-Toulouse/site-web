@@ -43,7 +43,7 @@ export default function Features03() {
                   Posez vos affaires, ayez vos clefs et venez quand cela vous va.
                   Moins cher que les autres co-working, vous aurez enfin votre propre espace.
                   <br></br>
-                  Nos <strong>5 bureaux</strong> sont actuellement complets. N'hésitez pas à revenir ici de temps en temps pour voir nos disponibilités.
+                  Nos <strong>5 bureaux</strong> sont actuellement complets, sauf le bureau du fond : contactez-nous ! N'hésitez pas à revenir ici de temps en temps pour voir nos disponibilités.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -99,7 +99,7 @@ export default function Features03() {
                       Son appellation "le bureau du fond", ne présage pas qu'il possède une vue directe sur la tour du couvent des Jacobins ! Inspiration garantie.
                     </div>
                     <div className="text-zinc-500">
-                    <strong>Le bureau est complet à l'heure actuelle</strong>
+                    <strong>Des places sont disponibles, contactez-nous !</strong>
                     </div>
                   </div>
                 </button>

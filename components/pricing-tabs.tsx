@@ -284,13 +284,8 @@ export default function PricingTabs() {
               </div>
 
               {/* Pricing tab 4 */}
-              <div className="h-full relative group">
-                {/* Overlay grisé */}
-                <div className="absolute inset-0 bg-zinc-900/60 z-10 rounded-lg pointer-events-none transition-opacity duration-300 group-hover:opacity-80" />
-                {/* Badge Complet */}
-                <div className="absolute top-4 right-4 z-20 bg-red-400 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Complet</div>
-                {/* Bouton hors overlay */}
-                <div className="relative flex flex-col h-full p-6 rounded-lg bg-zinc-800 pb-4">
+              <div className="h-full">
+                <div className="relative flex flex-col h-full p-6 rounded-lg bg-zinc-800">
                   <div className="mb-4">
                     <div className="text-lg text-zinc-200 font-semibold mb-1">Bureau dit "du fond"</div>
                     <div className="font-inter-tight inline-flex items-baseline mb-2">
@@ -354,7 +349,7 @@ export default function PricingTabs() {
                     </ul>
                   </div>
                   <div className="mt-8">
-                    <Link className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow-sm z-20" href="/contact">Rejoindre la liste d'attente</Link>
+                    <Link className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow-sm" href="/contact">Contactez-nous</Link>
                   </div>
                 </div>
               </div>
