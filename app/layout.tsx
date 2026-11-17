@@ -1,4 +1,5 @@
 import './css/style.css'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata = {
   title: 'Tangram Toulouse',
@@ -21,6 +22,7 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   )
