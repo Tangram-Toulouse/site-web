@@ -4,6 +4,11 @@ import TeamImage01 from '@/public/images/tangram/team-member-nico.jpg'
 import TeamImage05 from '@/public/images/tangram/team-member-sandrine.jpg'
 import TeamImage07 from '@/public/images/team-member-07.jpg'
 import TeamImage09 from '@/public/images/tangram/team-member-corentin.jpg'
+import TeamImageJoy from '@/public/images/tangram/team-member-joy.jpg'
+import TeamImageJeremy from '@/public/images/tangram/team-member-jeremy.jpg'
+import TeamImageMartin from '@/public/images/tangram/team-member-martin.jpg'
+import TeamImage06 from '@/public/images/team-member-06.jpg'
+import TeamImage03 from '@/public/images/team-member-03.jpg'
 import Link from 'next/link'
 
 export default function Team() {
@@ -106,6 +111,74 @@ export default function Team() {
                         <path d="m7.063 3 3.495 4.475L14.601 3h2.454l-5.359 5.931L18 17h-4.938l-3.866-4.893L4.771 17H2.316l5.735-6.342L2 3h5.063Zm-.74 1.347H4.866l8.875 11.232h1.36L6.323 4.347Z"></path>
                     </svg>
                   </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Joy Dahan */}
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
+              <div className="flex flex-col items-center">
+                <Image className="rounded-full mb-4" src={TeamImageJoy} width={120} height={120} alt="Joy Dahan" />
+                <h4 className="text-xl font-medium mb-1">Joy Dahan</h4>
+                <div className="text-gray-500 mb-1">Responsable Développement MyFoodCourt</div>
+                <div className='flex flex-row space-x-2 '>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/joy-dahan-b048b627a/" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Jérémy Dahan */}
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
+              <div className="flex flex-col items-center">
+                <Image className="rounded-full mb-4" src={TeamImageJeremy} width={120} height={120} alt="Jérémy Dahan" />
+                <h4 className="text-xl font-medium mb-1">Jérémy Dahan</h4>
+                <div className="text-gray-500 mb-1">CEO MyFoodCourt</div>
+                <div className='flex flex-row space-x-2 '>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-dahan-a73aa272/" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Martin Perreau */}
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
+              <div className="flex flex-col items-center">
+                <Image className="rounded-full mb-4" src={TeamImageMartin} width={120} height={120} alt="Martin Perreau" />
+                <h4 className="text-xl font-medium mb-1">Martin Perreau</h4>
+                <div className="text-gray-500 mb-1">Cofondateur de MyFoodCourt</div>
+                <div className='flex flex-row space-x-2 '>
+                  <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/martin-perreau" target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Marie Zegers de Beyl */}
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
+              <div className="flex flex-col items-center">
+                <Image className="rounded-full mb-4" src={TeamImage06} width={120} height={120} alt="Marie Zegers de Beyl" />
+                <h4 className="text-xl font-medium mb-1">Marie Zegers de Beyl</h4>
+                <div className='flex flex-row space-x-2 '>
+                </div>
+              </div>
+            </div>
+
+            {/* Yann Bouvet */}
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
+              <div className="flex flex-col items-center">
+                <Image className="rounded-full mb-4" src={TeamImage03} width={120} height={120} alt="Yann Bouvet" />
+                <h4 className="text-xl font-medium mb-1">Yann Bouvet</h4>
+                <div className='flex flex-row space-x-2 '>
                 </div>
               </div>
             </div>
