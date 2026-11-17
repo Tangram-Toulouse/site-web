@@ -27,7 +27,7 @@ export default function Features01() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center pb-12">
             <h2 className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-900 mb-4">
-              11 indépendants et salariés
+              9 indépendants et salariés
               <br></br>
               Bientôt vous
             </h2>
