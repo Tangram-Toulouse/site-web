@@ -1,0 +1,65 @@
+# Déploiement du site statique (next build -> out/) sur l'hébergement FTP historique.
+# Déclenché à chaque push sur main (donc à chaque merge de PR), ou manuellement
+# depuis l'onglet Actions.
+#
+# Secrets requis (Settings > Secrets and variables > Actions) :
+#   FTP_HOST      hôte avec protocole, ex. ftp://ftp.example.com ou sftp://sftp.example.com
+#   FTP_USERNAME  identifiant
+#   FTP_PASSWORD  mot de passe
+
+name: Deploy to FTP
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Un seul déploiement à la fois ; un nouveau merge attend la fin du précédent.
+concurrency:
+  group: deploy-ftp
+  cancel-in-progress: false
+
+env:
+  REMOTE_DIR: www
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Install lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      # Les assets (_next/, images…) sont envoyés avant les pages HTML, pour que
+      # les pages ne référencent jamais des fichiers pas encore en ligne.
+      - name: Upload out/ to ${{ env.REMOTE_DIR }}/
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -u "$FTP_USERNAME" --env-password "$FTP_HOST" <<EOF
+          set cmd:fail-exit yes
+          set net:max-retries 3
+          set net:timeout 30
+          set sftp:auto-confirm yes
+          mirror --reverse --verbose --parallel=4 --exclude-glob '*.html' out/ $REMOTE_DIR/
+          mirror --reverse --verbose --include-glob '*.html' out/ $REMOTE_DIR/
+          bye
+          EOF
