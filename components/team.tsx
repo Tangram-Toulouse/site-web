@@ -2,7 +2,6 @@ import Image from 'next/image'
 
 import TeamImage01 from '@/public/images/tangram/team-member-nico.jpg'
 import TeamImage012 from '@/public/images/tangram/team-member-marion.jpg'
-import TeamImage02 from '@/public/images/team-member-02.jpg'
 import TeamImage03 from '@/public/images/team-member-03.jpg'
 import TeamImage04 from '@/public/images/tangram/team-member-karim.jpg'
 import TeamImage042 from '@/public/images/team-member-04.jpg'
@@ -61,15 +60,6 @@ export default function Team() {
                     </svg>
                   </a> */}
                 </div>
-              </div>
-            </div>
-
-            {/* 2nd member */}
-            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
-              <div className="flex flex-col items-center">
-                <Image className="rounded-full mb-4" src={TeamImage02} width={120} height={120} alt="Team member 01" />
-                <h4 className="text-xl font-medium mb-1">Blanca Aguilar</h4>
-                <div className="text-gray-500 mb-1">Architecte</div>
               </div>
             </div>
 
